@@ -1,0 +1,12 @@
+POST http://localhost:4000/api/courses
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZDJjYWJmY2YwZGMzZTRmYzNlNWYyNSIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzQxOTY1MjkwLCJleHAiOjE3NDE5Njg4OTB9.9UwaEf9PrUiuWgC_yOzyz7EpAaHLUvRSno4od-WDnnE
+
+
+{
+  "name": "Python & AI basics",
+  "description": "Learn the building LLM with Python",
+  "category": "AI Development",
+  "price": 64.99,
+  "instructor": "John Doe"
+}

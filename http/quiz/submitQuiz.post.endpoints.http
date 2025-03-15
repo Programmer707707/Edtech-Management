@@ -1,0 +1,9 @@
+POST http://localhost:4000/api/quizzes/submit
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZDJjYWJmY2YwZGMzZTRmYzNlNWYyNSIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzQxOTY1MjAyLCJleHAiOjE3NDE5Njg4MDJ9.9M-Hj045sgN-1wR6waVT_KWYGiWpKcmgffiJDq26gNM
+Content-Type: application/json
+
+{
+  "studentId": "67d44b1d0b02580f4e31dd16",  
+  "quizId": "67d2e06b947646d71709627f",    
+  "answers": ["4", "8"]                    
+}

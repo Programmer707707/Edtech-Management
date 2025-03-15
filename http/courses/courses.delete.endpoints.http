@@ -1,0 +1,2 @@
+DELETE http://localhost:4000/api/courses/67d447f5fbb7449ab0f585fd
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZDJjYWJmY2YwZGMzZTRmYzNlNWYyNSIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzQxOTY1MjAyLCJleHAiOjE3NDE5Njg4MDJ9.9M-Hj045sgN-1wR6waVT_KWYGiWpKcmgffiJDq26gNM

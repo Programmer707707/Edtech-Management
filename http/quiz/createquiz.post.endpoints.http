@@ -1,0 +1,20 @@
+POST http://localhost:4000/api/quizzes/create
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3ZDJjYWJmY2YwZGMzZTRmYzNlNWYyNSIsInJvbGUiOiJzdHVkZW50IiwiaWF0IjoxNzQxODcyNDcwLCJleHAiOjE3NDE4NzYwNzB9.4jEQ9hJrCF__dwl2hv063Yn5swLGVT_zfAQI5_22G4M
+
+
+{
+  "courseId": "67d2dd98e13b84034248f449", 
+  "questions": [
+    {
+      "question": "What is 2 + 2?",
+      "options": ["3", "4", "5"],
+      "correctAnswer": "4"
+    },
+    {
+      "question": "What is 3 + 5?",
+      "options": ["5", "7", "8"],
+      "correctAnswer": "8"
+    }
+  ]
+}
