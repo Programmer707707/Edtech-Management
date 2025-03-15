@@ -10,7 +10,7 @@ const swaggerOptions = {
     },
     servers: [
       {
-        url: 'http://localhost:4000',
+        url: 'https://edtech-management.onrender.com/',
       },
     ],
     components: {
